@@ -17,7 +17,9 @@ attr_accessor :url
   end
   
   def parse_json 
-    data = 
+    data = JSON.parse(self.get_response_body)
+    data.collect do |program|
+    program["agency"]  
   end
   
 end
