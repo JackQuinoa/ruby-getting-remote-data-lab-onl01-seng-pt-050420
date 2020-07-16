@@ -17,7 +17,7 @@ attr_accessor :url
   end
   
   def parse_json 
-    
+    data = 
   end
   
 end
